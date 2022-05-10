@@ -100,12 +100,12 @@ WSGI_APPLICATION = 'sentrydjango.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': 'db4free.net',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbtest',
+        'USER': 'postgres',
+        'PASSWORD': 'passwhat123',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 

@@ -4,6 +4,7 @@ from rest_framework.views import APIView
 from .serializers import PersonSerializer
 from .models import Person
 
+# This is the index route
 def index(request):
     return render(request, "index.html")
 
